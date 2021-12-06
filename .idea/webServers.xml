@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c2c75b8f-d449-411c-ab82-6c9f3c3f90c3" name="tommieruijgrok.nl" url="http://tommieruijgrok.nl/studit">
+        <fileTransfer rootFolder="/studit" accessType="SFTP" host="ssh.strato.com" port="22" sshConfigId="8d73d3ce-5f55-482b-8b84-fd26ea22a211" sshConfig="tommie@tommieruijgrok.nl@ssh.strato.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
