@@ -1,3 +1,31 @@
-#container {
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+body {
+    margin: 0px;
+    font-family: 'Rubik';
+}
+
+#container {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#container.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    border: 0px;
+    border-radius: 4px;
+    font-family: Rubik;
+    font-weight: 600;
+}
+
+input[type=submit]{
+    background-color: #2680EB;
+    color: white;
+    font-weight: bold;
 }
