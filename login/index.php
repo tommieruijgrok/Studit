@@ -1,8 +1,5 @@
 <?php
-session_start();
-if ($_SESSION['login_status'] == true){
-    header("location: ../dashboard");
-}
+
 
 $pageName = "Login";
 ?>

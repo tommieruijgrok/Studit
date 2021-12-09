@@ -6,6 +6,8 @@ include "../include/access.php";
 include "../include/config.php";
 include "../include/functions.php";
 
+
+
 ?>
 <html>
     <head>
@@ -15,6 +17,9 @@ include "../include/functions.php";
     include "../include/head.php";
     ?>
     <body>
+        <?php
+            include "../include/notification.php";
+        ?>
         <div id="container">
             <?php
             include "../include/sidebar.php";
